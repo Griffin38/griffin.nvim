@@ -11,7 +11,7 @@ local colors = {
 	lightblue = "#89ddff",
 }
 
-local griffin_lualine = {
+return {
 	normal = {
 		a = { bg = colors.status, fg = colors.white, gui = "bold" },
 		b = { bg = colors.white, fg = colors.status },
@@ -48,5 +48,3 @@ local griffin_lualine = {
 		z = { bg = colors.status, fg = colors.white, gui = "bold" },
 	},
 }
-
-return griffin_lualine
