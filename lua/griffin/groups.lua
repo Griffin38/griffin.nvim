@@ -1,6 +1,6 @@
 local M = {}
 
-local colors = require("mycolorscheme.palette")
+local colors = require("griffin.palette")
 
 M.setup = function()
 	return {
