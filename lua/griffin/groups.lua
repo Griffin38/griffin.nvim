@@ -120,6 +120,9 @@ M.setup = function()
 		htmlTagName = { fg = colors.ui_accent_red },
 		htmlArg = { fg = colors.ui_accent_purple },
 
+		--VUE
+		["@tag.vue"] = { link = "htmlTag" },
+
 		--Treesitter
 		-- @variable                       various variable names
 		["@variable"] = { fg = colors.editor_foreground },
