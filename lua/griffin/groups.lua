@@ -121,7 +121,7 @@ M.setup = function()
 		htmlArg = { fg = colors.ui_accent_purple },
 
 		--VUE
-		["@tag.vue"] = { link = "htmlTag" },
+		["@tag.vue"] = { link = "htmlTagName" },
 
 		--Treesitter
 		-- @variable                       various variable names
