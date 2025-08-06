@@ -70,7 +70,7 @@ M.setup = function()
 		Conditional = { fg = colors.ui_accent_blue1 },
 		Label = { fg = colors.ui_accent_red2 },
 		Repeat = { link = "Label" },
-		Operator = { fg = colors.ui_accent_blue1 },
+		Operator = { fg = colors.ui_accent_lightblue },
 		Keyword = { fg = colors.ui_accent_red },
 		Exception = { fg = colors.ui_accent_orange2 },
 		PreProc = { fg = colors.ui_accent_yellow1 },
@@ -236,7 +236,7 @@ M.setup = function()
 		-- @tag.attribute          XML-style tag attributes
 		["@tag.attribute"] = { fg = colors.ui_accent_purple },
 		-- @tag.delimiter          XML-style tag delimiters
-		["@tag.delimiter"] = { fg = colors.ui_accent_purple },
+		["@tag.delimiter"] = { fg = colors.ui_accent_lightblue },
 
 		-- Snacks
 		SnacksPickerInputBorder = { fg = colors.ui_accent_orange },
