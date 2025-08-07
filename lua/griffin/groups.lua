@@ -124,6 +124,9 @@ M.setup = function()
 		["@variable.member.vue"] = { fg = colors.ui_accent_lightblue },
 
 		["@tag.html"] = { link = "htmlTagName" },
+
+		["@property.graphql"] = { fg = colors.ui_accent_blue1 },
+		["@variable.graphql"] = { fg = colors.ui_accent_lightblue },
 		--Treesitter
 		-- @variable                       various variable names
 		["@variable"] = { fg = colors.editor_foreground },
