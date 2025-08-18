@@ -1,7 +1,5 @@
 return {
 	editor_background = "#1a191e",
-
-	background = "#17171b",
 	editor_foreground = "#eeffff",
 
 	ui_background = "#5F5E62",
@@ -13,9 +11,6 @@ return {
 
 	ui_accent_lightblue = "#89ddff",
 	ui_accent_darkblue = "#82aaff",
-
-	ui_blue = "#415580",
-	ui_blue2 = "#27334C",
 
 	ui_accent_yellow1 = "#FFCB6B",
 	ui_accent_yellow2 = "#E6B760",
@@ -32,10 +27,17 @@ return {
 
 	ui_accent_black = "#202020",
 
+	ui_accent_info = "#57B000",
+	ui_accent_warning = "#CC4630",
+
 	ui_info = "#3E7E00",
 	ui_line = "#395F65",
 	ui_shaded = "#546e7a",
-
-	ui_accent_info = "#57B000",
-	ui_accent_warning = "#CC4630",
 }
+
+-- background = "#17171b",
+-- 	status = "#07373e",
+-- 	statust = "#184860",
+-- 	darkgray = "#72767f",
+-- ui_blue = "#415580",
+-- ui_blue2 = "#27334C",
