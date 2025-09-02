@@ -250,6 +250,8 @@ M.setup = function()
 		SnacksPickerToggle = { link = "SnacksProfilerBadgeInfo" },
 		SnacksPickerPickWinCurrent = { fg = colors.editor_foreground, bg = colors.ui_accent_yellow1 },
 		SnacksPickerPickWin = { fg = colors.editor_foreground, bg = colors.ui_accent_darkblue },
+		SnacksNormal = { fg = colors.ui_accent_blue1 },
+		SnacksPicker = { fg = colors.ui_accent_info },
 		SnacksBackdrop = { fg = colors.editor_foreground },
 
 		-- Gitsigns
