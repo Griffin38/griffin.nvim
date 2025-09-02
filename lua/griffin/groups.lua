@@ -33,7 +33,7 @@ M.setup = function()
 		-- MoreMsg= ''
 		-- NonText= ''
 		Normal = { fg = colors.editor_foreground, bg = colors.editor_background },
-		NormalFloat = { fg = colors.editor_foreground },
+		-- NormalFloat = { fg = colors.editor_foreground },
 		PMenu = { fg = colors.ui_foreground, bg = colors.ui_background },
 		PMenuSel = { fg = colors.ui_foreground, bg = colors.ui_line },
 		PMenuSbar = { fg = colors.ui_accent_darkblue },
@@ -250,7 +250,7 @@ M.setup = function()
 		SnacksPickerToggle = { link = "SnacksProfilerBadgeInfo" },
 		SnacksPickerPickWinCurrent = { fg = colors.editor_foreground, bg = colors.ui_accent_yellow1 },
 		SnacksPickerPickWin = { fg = colors.editor_foreground, bg = colors.ui_accent_darkblue },
-		-- SnacksBackdrop = { fg = colors.editor_foreground },
+		SnacksBackdrop = { fg = colors.editor_foreground },
 
 		-- Gitsigns
 		GitSignsAdd = { fg = colors.ui_accent_info },
