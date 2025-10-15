@@ -317,9 +317,9 @@ M.setup = function()
 		-- barbar
 		--
 		BufferCurrent = { fg = colors.ui_accent_orange },
-		BufferInactiveMod = { link = "BufferCurrentMod" },
+		BufferCurrentMod = { link = "BufferCurrent" },
 		BufferTabpageFill = { bg = colors.editor_background },
-		BufferCurrentMod = { fg = colors.ui_accent_yellow1 },
+		BufferInactiveMod = { fg = colors.ui_accent_yellow1 },
 		--
 		-- NEOTEST
 		--   # NeotestAdapterName = { fg = theme.syn.special3, },
