@@ -253,7 +253,8 @@ M.setup = function()
 		SnacksPicker = { fg = colors.editor_foreground },
 		-- SnacksPickerPathHidden = { fg = colors.ui_accent_blue1 },
 		-- SnacksPickerPathIgnored = { fg = colors.ui_accent_blue1 },
-		-- SnacksPickerPathDir = { fg = colors.ui_accent_blue1 },
+		SnacksPickerDir = { fg = colors.ui_accent_blue1 },
+		SnacksPickerDimmer = { fg = colors.ui_accent_blue1 },
 
 		-- Gitsigns
 		GitSignsAdd = { fg = colors.ui_accent_info },
